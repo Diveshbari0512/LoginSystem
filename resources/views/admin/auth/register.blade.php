@@ -3,7 +3,7 @@
     <h2 class="font-semibold text-xl text-grey-800 leading-tight text-center">
         {{ __('Admin Register')}}
     </h2>
-    <form method="POST" action="{{ route('register') }}">
+    <form method="POST" action="{{ route('admin.register') }}">
         @csrf
 
         <!-- Name -->
